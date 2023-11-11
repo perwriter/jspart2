@@ -1,0 +1,22 @@
+/* Styles for both HTML and JavaScript */
+.todo-input,
+.todo-date {
+  padding: 5px;
+  margin: 5px;
+}
+
+/* Styles specific to HTML */
+button {
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Styles specific to JavaScript */
+.jslist {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
