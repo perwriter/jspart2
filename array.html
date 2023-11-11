@@ -22,20 +22,31 @@
       //   }
       //   console.log(randomNumber);
 
-      const todo = ["make dinner", "wash dishes", "watch netflix"];
-      for (let i = 0; i <= todo.length - 1; i++) {
-        const value = todo[i];
-        console.log(value);
-        // Looping through and array
+      // const todo = ["make dinner", "wash dishes", "watch netflix"];
+      // for (let i = 0; i <= todo.length - 1; i++) {
+      //   const value = todo[i];
+      //   console.log(value);
+      //   // Looping through and array
+      // }
+      // //   Accumulator apttern
+      // const nums = [1, 1, 3];
+      // let total = 0; // Change from const to let
+      // for (let i = 0; i < nums.length; i++) {
+      //   const num = nums[i];
+      //   total += num;
+      // }
+      // console.log(total);
+      let i = 1;
+
+      while (i <= 10) {
+        if (i % 3 === 0) {
+          // If i is divisible by 3, just move to the next iteration without printing.
+          i++;
+          continue;
+        }
+        console.log(i);
+        i++; // Move the increment outside the if block.
       }
-      //   Accumulator apttern
-      const nums = [1, 1, 3];
-      let total = 0; // Change from const to let
-      for (let i = 0; i < nums.length; i++) {
-        const num = nums[i];
-        total += num;
-      }
-      console.log(total);
     </script>
   </body>
 </html>
