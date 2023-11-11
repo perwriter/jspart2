@@ -18,13 +18,13 @@ function renderTodo() {
     const todolObject = Todo[i];
     const name = todolObject.name;
     const date = todolObject.date;
-    const html = `<p>
-    ${name} ${date}  
+    const html = `<div>
+    ${name}</div> <div>${date} </div> 
     <button onClick="
     Todo.splice(${i}, 1);
     renderTodo();
-    ">Delete</button>
-    </p>  `;
+    " class ="del-btn">Delete</button>
+     `;
     TodoHTML += html;
   }
   console.log(TodoHTML);

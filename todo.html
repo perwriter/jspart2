@@ -8,11 +8,13 @@
   </head>
   <body>
     <h2>To Do List Practice 1</h2>
-    <input placeholder="ToDo Name" class="jsinput" />
-    <input class="jsdate" type="date" />
-    <button onclick="addTodo();">Add</button>
+    <div class="data-grid">
+      <input placeholder="ToDo Name" class="jsinput name-input" />
+      <input class="jsdate date-input" type="date" />
+      <button onclick="addTodo();" class="add-btn">Add</button>
+    </div>
 
-    <div class="jslist"></div>
+    <div class="jslist todo-grid"></div>
     <script src="scripts/todo.js"></script>
   </body>
 </html>
